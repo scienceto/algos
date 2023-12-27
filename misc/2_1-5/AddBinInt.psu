@@ -1,0 +1,9 @@
+ADD-BINARY-INTEGERS(A, B, n)
+carry = 0
+for i = n to 1
+    C[i+1] = (A[i] + B[i] + carry) % 2
+    if (A[i] + B[i] + carry) > 1
+        carry = 1
+    else
+        carry = 0
+C[1] = carry

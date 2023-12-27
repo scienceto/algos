@@ -1,6 +1,6 @@
 # Datastructures and Algorithms
 
-## Importtant terms
+## Important terms
 
 0. Data Structures 
 1. Algorithm \
@@ -36,9 +36,10 @@ Output: A permutation (reordering) <a1', a2', ..., an'> of the input sequence su
 ### Available algorithms (not exhaustive)
 
 1. Insertion sort
-2. Merge sort
-3. Bubble sort
-3. ...
+2. Selection sort
+3. Merge sort
+4. Bubble sort
+5. ...
 
 ### Factors for choosing a sorting algorithm
 
@@ -46,6 +47,9 @@ Output: A permutation (reordering) <a1', a2', ..., an'> of the input sequence su
 2. Extent to which items are already sorted
 3. Restrictions on item values
 4. Computer architecture and kind of storage device (e.g. main memory, disks, tapes, etc.)
+
+## 2. Searching Problem
+
 
 # References
 

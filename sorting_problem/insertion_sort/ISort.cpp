@@ -25,8 +25,7 @@ public:
     }
 
 private:
-    int *A;
-    int n;
+    int *A, n;
 };
 
 int main()

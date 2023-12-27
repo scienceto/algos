@@ -1,4 +1,4 @@
-// Sort array A with n elements using insertion sort
+INSERION-SORT(A, n)
 
 for i = 2 to n
     key = A[i]
