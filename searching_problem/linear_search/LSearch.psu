@@ -1,0 +1,13 @@
+LINEAR-SEARCH(A, n, v)
+// loop invariant: sub-array to the left of the current element does not contain the value v
+
+i = 1
+while i <= n 
+    if A[i] == v
+        break
+    i = i + 1
+
+if i <= n
+    // element found at i index
+else
+    NIL // element not found in the array A
