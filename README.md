@@ -2,7 +2,7 @@
 
 ## Importtant terms
 
-0. Datastructures 
+0. Data Structures 
 1. Algorithm \
     a. Correct algorithms \
     b. Incorrect algorithms
