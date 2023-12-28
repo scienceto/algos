@@ -1,3 +1,5 @@
+// merge sort with insertion sort on smaller segments
+
 MERGE(A, p, q, r)
 nl = q - p + 1
 nr = r - q
