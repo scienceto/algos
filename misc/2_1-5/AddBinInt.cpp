@@ -29,7 +29,8 @@ public:
             }
         }
         C[0] = carry;
-        std::cout << carry << "    " << " = " << C[0] << std::endl;
+        std::cout << carry << "    "
+                  << " = " << C[0] << std::endl;
     }
 
 private:
@@ -50,14 +51,15 @@ int main()
     int B_10 = 0;
     int C_10 = 0;
 
-    for (int i = 0; i < n; i++) {
-        int multiplier = (int) pow(2, n-i-1);
+    for (int i = 0; i < n; i++)
+    {
+        int multiplier = (int)pow(2, n - i - 1);
         A_10 += A[i] * multiplier;
         B_10 += B[i] * multiplier;
-        C_10 += C[i] * (int) pow(2, n-i);
+        C_10 += C[i] * (int)pow(2, n - i);
         // std::cout << A[n-i-1] << " " << B[n-1-i] << " = " << C[n-i] << std::endl;
     }
-    C_10 += C[n] * (int) pow(2, 0);
+    C_10 += C[n] * (int)pow(2, 0);
 
     std::cout << A_10 << " + " << B_10 << " = " << C_10 << std::endl;
 }

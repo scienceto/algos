@@ -33,7 +33,7 @@ int main()
     int A[] = {10, 4, 2, 6, 9, 3};
     int n = 6;
 
-    ISort array = ISort(A, 6);
+    ISort array = ISort(A, n);
     array.sort();
 
     for (int i = 0; i < n; i++)

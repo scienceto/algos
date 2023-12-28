@@ -12,10 +12,17 @@
 5. Task-parallel algorithms
 6. Online algorithms
 7. Dynamic programming
+8. Loop invariant
+9. Running time \
+    a. Best-case \
+    b. Average-case \
+    c. Worst-case
 
 ## Algorithm Design Methods
 
 1. Divide-and-conquer
+2. Incremental method
+3. Greedy
 
 ## Standard Problems
 
@@ -26,7 +33,6 @@
 1. Keys
 2. Satellite data
 3. Record
-4. Loop invariant
 
 ### Formal definition
 

@@ -1,4 +1,5 @@
 INSERION-SORT(A, n)
+// loop invariant: elements in A[1:i] before the start of next loop are the same as in A[1:i] before the start of current loop but in sorted order
 
 for i = 2 to n
     key = A[i]
