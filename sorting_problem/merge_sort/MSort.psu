@@ -1,0 +1,38 @@
+MERGE(A, p, q, r)
+nl = q - p + 1
+nr = r - q
+let L[0:nl-1] and R[0:nr-1] be new arrays
+for i = 0 to nl
+    L[i] = A[p+i]
+for j = 0 to nr
+    R[j] = A[q+1+j]
+
+i = 0
+j = 0
+k = p
+// start merging the L and R arrays into the original place in A array in sorted order
+while i < nl and j < nr
+    if L[i] < R[j]
+        A[k] = L[i]
+        i = i + 1
+    else
+        A[k] = R[j]
+        j = j + 1
+    k = k + 1
+
+while i < nl
+    A[k] = L[i]
+    i = i + 1
+    k = k + 1
+while j < nr
+    A[k] = R[j]
+    j = j + 1
+    k = k + 1
+
+MERGE-SORT(A, p, r)
+if p >= r
+    return
+q = (p + r) / 2
+MERGE-SORT(A, p, q)
+MERGE-SORT(A, q+1, r)
+MERGE(A, p, q, r)
