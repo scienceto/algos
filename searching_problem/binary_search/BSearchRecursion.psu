@@ -1,0 +1,15 @@
+BINARY-SEARCH(A, v, p, q)
+if A[p] == v
+    return p
+if A[q] == v
+    return q
+if q - p < 2
+    return
+m = (p + q) / 2
+if A[m] >= v
+    next_p = p
+    next_q = m
+if A[m] < v
+    next_p = m
+    next_q = q
+BINARY-SEARCH(A, v, next_p, next_q)
