@@ -4,7 +4,7 @@ if A[p] == v
 if A[q] == v
     return q
 if q - p < 2
-    return
+    return NIL
 m = (p + q) / 2
 if A[m] >= v
     next_p = p

@@ -9,8 +9,8 @@ public:
         n = n_in;
     }
     
-    int search (int v) {
-        return binarySearch(v, 0, n-1);
+    int search (int v, int p = 0) {
+        return binarySearch(v, p, n - 1);
     }
 
 private:
@@ -41,13 +41,13 @@ private:
     }
 };
 
-int main () {
-    int n = 9;
+// int main () {
+//     int n = 9;
 
-    int A[] = {2, 4, 1, 7, 3, 12, 55, 9, 6};
+//     int A[] = {2, 4, 1, 7, 3, 12, 55, 9, 6};
 
-    BSearchRecusion bSearchRecursion = BSearchRecusion(A, n);
+//     BSearchRecusion bSearchRecursion = BSearchRecusion(A, n);
 
-    cout << bSearchRecursion.search(55) << endl;
-    cout << bSearchRecursion.search(22) << endl;
-}
+//     cout << bSearchRecursion.search(55) << endl;
+//     cout << bSearchRecursion.search(22) << endl;
+// }
