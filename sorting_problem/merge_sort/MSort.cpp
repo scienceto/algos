@@ -71,19 +71,19 @@ private:
     }
 };
 
-int main()
-{
-    int A[] = {10, 4, 2, 6, 9, 3, 1};
-    int n = 7;
+// int main()
+// {
+//     int A[] = {10, 4, 2, 6, 9, 3, 1};
+//     int n = 7;
 
-    MSort array = MSort(A, n);
-    array.sort();
+//     MSort array = MSort(A, n);
+//     array.sort();
 
-    for (int i = 0; i < n; i++)
-    {
-        std::cout << A[i] << " ";
-    }
-    std::cout << std::endl;
+//     for (int i = 0; i < n; i++)
+//     {
+//         std::cout << A[i] << " ";
+//     }
+//     std::cout << std::endl;
 
-    return 0;
-}
+//     return 0;
+// }
