@@ -1,0 +1,10 @@
+SUM-EQAUL(A, n, v)
+MERGE-SORT(A, n)
+if 2 * A[n - 1] < v
+    return FALSE
+for i = 0 to n - 2
+    add_v = v - A[i]
+    j = BINARY-SEARCH(A, add_v, i + 1, n - 1)
+    if j != NIL
+        return TRUE
+return FALSE
